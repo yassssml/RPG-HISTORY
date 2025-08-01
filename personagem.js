@@ -37,7 +37,7 @@ defesaTotal = DEFESA_BASE + (nivel/2);
 console.log(`💥 Dano Total: ${ataqueTotal}`);
 console.log(`🎯 Defesa Total: ${defesaTotal}`);
 
-// Malenia enfrentou um gigante da floresta sombria
+// Malenia encontrou um gigante da floresta sombria
 console.log("------------------------------------------------");
 console.log("Malenia encontrou um guardião da floresta sombria.");
 console.log("------------------------------------------------");
@@ -52,6 +52,7 @@ podeEnfrentarGuardiao = vidaSuficiente && (ataqueForte || nivelAvancado)
 console.log(`🛡️ Pode Enfrentar o Guardião: ${podeEnfrentarGuardiao}`);
 
 //historia de malenia
+console.log("-------------------------------------------------");
 console.log("📜 LORE DA HERÓINA: Malenia");
 console.log("-------------------------------------------------");
 console.log("Malenia foi uma criatura criada por um deus antigo, destinada a proteger a floresta sombria em nome do seu pai e criador Elden. Com o tempo, ela desenvolveu habilidades excepcionais de arco e flecha, tornando-se uma arqueira lendária. Sua jornada começou quando um mal antigo ameaçou a floresta, Malenia que desde sua criação foi conduzida a seguir seu caminho como guardiã. Mas Malenia nunca se entendeu como guardiã e decidiu explorar caminhos novos sozinha, assim, iniciando sua história.");
