@@ -170,3 +170,10 @@ let inimigosEncontrados = ["Goblin", "Guardião da floresta"];
 console.log(nome + "adentra dentro do castelo dos arrays.");
 console.log("Após muitas vitorias Malenia chegou ao castelo lendário.");
 console.log("Inventario inicial"  +  inventario.length  +  "itens magicos.");
+console.log("-----------------------------------");
+
+//cap 1
+console.log("Cap. 1: os baús arcanos do castelo.")
+
+let pocoesEncontradas = ["Cura", "Força maior", "Agilidade"];
+let armadilhasAtiradas = [];
