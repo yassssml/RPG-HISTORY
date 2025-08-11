@@ -48,7 +48,7 @@ ataqueForte = ataqueTotal > 60
 console.log(`💥 Ataque Forte: ${ataqueForte}`);
 nivelAvancado = nivel >= 10
 console.log(`🎯 Nível Avançado: ${nivelAvancado}`);
-podeEnfrentarGuardiao = vidaSuficiente && (ataqueForte || nivelAvancado)
+podeEnfrentarGuardiao = vidaSuficiente && (ataqueForte || nivelAvancado);
 console.log(`🛡️ Pode Enfrentar o Guardião: ${podeEnfrentarGuardiao}`);
 
 //historia de malenia
@@ -123,7 +123,7 @@ if (nivel >= 5) {
 console.log("------------------------------");
 console.log("Malenia descansa na beira do rio e aumenta a sua força, caminhando mais um pouco, a arqueira decide ir ao ferreiro emancipar seu arco de guerra.");
 forca++
-console.log(`💪 Força atual: ${forca}`)
+console.log(`💪 Força atual: ${forca}`);
 console.log("------------------------------");
 
 console.log("No ferreiro, Malenia só poderá emancipar seu arco se estiver nivel 10, junto com 20 moedas de ouro.");
@@ -140,11 +140,11 @@ console.log("------------------------------");
 console.log("Ainda perto ao ferreiro, um cidadão misterioso oferece uma poção para aumentar seu dano em combate, porém não quer nada em troca.");
 console.log("Malenia aceita o presente e aumenta seu dano");
 danoEncantado += 50
-console.log(`💥 Dano atual: ${danoEncantado}`)
+console.log(`💥 Dano atual: ${danoEncantado}`);
 console.log("------------------------------");
 console.log("Saindo da vila do ferreiro Malenia caminha o suficiente para por fim encontrar o guardião e poder desbloquear o portal para passar de fase.");
 console.log("------------------------------");
-console.log("Malenia equipa seu Arco e se prepara para a grande batalha.")
+console.log("Malenia equipa seu Arco e se prepara para a grande batalha.");
 
 let vidaGuardiao = 150
 let forcaGuardiao = 100
@@ -158,3 +158,15 @@ if (danoEncantado > forcaGuardiao && vida >= 100) {
 }
 console.log("------------------------------");
 console.log("Malenia continua a sua jornada após vencer bravamente a batalha contra o guardião, a arqueira entra no portal e conclui sua caminhada. Do outro lado do portal Malenia se deita em baixo da árvore sagrada de Elden e descansa para recuperar sua agilidade e força e assim seguir para a proxima aventura.");
+
+//cap 3
+
+console.log("--------------------------------");
+console.log("Malenia enfim seguiu sua jornada com novos atributos.");
+let inventario = ["Poção de cura", "Armadura de arcanjo"];
+let aliados = ["Mago oculto", "Ferreiro", "Arqueiro de Elden"];
+let inimigosEncontrados = ["Goblin", "Guardião da floresta"];
+
+console.log(nome + "adentra dentro do castelo dos arrays.");
+console.log("Após muitas vitorias Malenia chegou ao castelo lendário.");
+console.log("Inventario inicial"  +  inventario.length  +  "itens magicos.");
